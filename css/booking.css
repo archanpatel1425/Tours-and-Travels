@@ -1,0 +1,281 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../images/bg.png");
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.container {
+    width: 1200px;
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 6px;
+}
+
+nav ul li a {
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover,
+a.active {
+    background-color: teal;
+    border-radius: 5px;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 70px;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.booking-form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 25px;
+    border-radius: 5px;
+    float: left;
+}
+
+.booking-form h3 {
+    margin: 10px 0px;
+}
+
+.booking-form .input-group {
+    margin: 10px 0;
+}
+
+.f-class {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inp-width {
+    min-width: 300px;
+}
+
+.plus-minus-btn {
+    color: teal;
+    margin-top: 10px;
+    word-spacing: 20px;
+}
+
+.btn {
+    padding: 0px 10px;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    font-size: 30px;
+    outline: none;
+    color: teal;
+}
+
+.booking-form .calculations {
+    margin: 10px 0;
+}
+
+.booking-form .calculations p {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.booking-form input {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #F3F5FF;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.booking-form .inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.booking-content {
+    color: #fff;
+    width: 80%;
+}
+
+.booking-content h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.btn-style {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    background-color: teal;
+}
+
+.amount {
+    display: flex;
+    justify-content: space-between;
+}
+
+.booking-confirmation {
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgb(241, 240, 240);
+    padding: 25px;
+    border-radius: 5px;
+    height: auto;
+}
+
+.booking-confirmation h1 {
+    text-align: center;
+}
+
+
+/* notic */
+
+.notice {
+    height: auto;
+    padding: 20px;
+    background-color: rgb(250, 239, 239);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.notice p {
+    font-size: .9rem;
+    color: #04288a;
+    margin-left: 1.4rem;
+}
+
+.booking-detailes-container {
+    display: flex;
+    justify-content: center;
+}
+
+.booking-detailes {
+    padding: 20px 20px;
+    background: rgb(255, 255, 255);
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.booking-detailes span {
+    color: teal;
+}
+
+h4,
+span {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+h3,
+span,
+h4 {
+    margin-top: 1rem;
+}
+
+span {
+    font-size: 1rem;
+}
+
+.time {
+    color: gray;
+    padding: 5px;
+    border: 1px solid gray;
+    margin-left: 1rem;
+}
+
+#printBtn {
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+}
+
+.footer {
+    font-size: .8rem;
+    margin-top: 2rem;
+}
+
+.air {
+    font-size: 3rem;
+    color: teal;
+}
+
+#userTricket {
+    display: none;
+}
+
+footer {
+    padding: 10px 10px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: gainsboro;
+}
+
+@media(max-width:700px) {
+    .booking-detailes {
+        width: 100%;
+    }
+
+    .inp-width {
+        min-width: 60%;
+    }
+
+    nav ul {
+        display: flex;
+        margin: 0px 0px;
+    }
+
+    nav ul li a {
+        padding: 5px;
+    }
+
+    .booking-content {
+        display: none;
+    }
+
+    .main-content {
+        grid-template-columns: 100%;
+    }
+}

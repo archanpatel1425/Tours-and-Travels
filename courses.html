@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+    <title>SERVICES</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Londrina+Solid&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css\styles.css">
+</head>
+
+<body>
+    <section class="COHEAD">
+        <nav class="navbar">
+            <a href="index.html"><img src="images/logo.png" style="height: 9vh;width: 10vh;"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="booking.html">BOOKING</a></li>
+                    <li><a href="courses.html">SERVICES</a></li>
+                    <li><a href="blog.html">PACKAGES</a></li>
+                    <li><a href="contact us.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i id="menu-btn" class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>SERVICES</h1>
+            <p> The Facilities which give u a comfort why to take tension ? when we are their</p>
+        </div>
+
+    </section>
+    <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top"><i
+            class="fa fa-solid fa-arrow-up"></i></button>
+    <!--courses-->
+    <section class="course">
+        <h1>PROGRAMS WE OFFER
+        </h1>
+        <p>From a Solo Holiday to Family Holiday </p>
+        <div class="row">
+            <div class="course-col">
+                <h3>FAMILY HOLIDAY</h3>
+                <p>10 Nights-9 Days<br>
+                    Family package is one of the best packages
+                    we offer specially for family's with children
+                    we provide pre-arrangement and all time schedule
+                    so u dont have to wait or lose the energy from morning meal to night concerts.</p>
+            </div>
+            <div class="course-col">
+                <h3>HONEYMOON HOLIDAY</h3>
+                <p>Celebrate your new relationship with Australia honeymoon packages that will leave you both enchanted!
+                    Keep your apprehensions at bay at this magnificent island, which is located at the confluence of the
+                    Indian Ocean
+            </div>
+            <div class="course-col">
+                <h3>SOLO HOLIDAY</h3>
+                <p>The best part is that, in Australia, everyone speaks English and when on solo travel to Australia,
+                    what best can you ask for. Famous for having some of the great sights in the world
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--facilties-->
+    <section class="facilities">
+        <h1>FACILITIES WE PROVIDE</h1>
+        <p>The comfort is waiting for you.Why to be late? let's join?</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/TR.jpg">
+                <h3>TRAVEL</h3>
+                <p>Transportation facalities are also included in the package like we will provide you flight tickets
+                    for the holidays in australia you can travel in ships or by roadways as per your convenience as both
+                    of the facilities are included in your packages.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/ACCCO.jpg">
+                <h3>ACCOMODATION</h3>
+                <p>Terrific tours and Travels offers hotel bookings across the world at economical prices; whether you
+                    are
+                    traveling within India or abroad and are looking for hotels, then we’ve got you covered. </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/GUIDE.jpg">
+                <h3>GUIDE</h3>
+                <p>Providing you with the best tour guides so that you could explore the best.</p>
+            </div>
+        </div>
+    </section>
+
+    <!------ footer----->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section links">
+                    <br><br>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Tours</a></li>
+                        <li><a href="#">Destinations</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section destinations">
+                    <h2>Featured Destinations</h2>
+                    <br>
+                    <ul>
+                        <li><a href="#">Europe</a></li>
+                        <li><a href="#">Asia</a></li>
+                        <li><a href="#">North America</a></li>
+                        <li><a href="#">South America</a></li>
+                        <li><a href="#">Africa</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact">
+                    <h2>Contact Us</h2>
+                    <br>
+                    <p>25 Main Street, Science city</p>
+                    <p>Email: travels@gmail.com</p>
+                    <p>Phone: +91 9141546389</p>
+                </div>
+                <div class="footer-section about">
+                    <h2>About Us</h2>
+                    <br>
+                    <p>Travel with us and explore the world. We provide the best tours and travel experiences.</p>
+                    <br>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="box_copyright">
+                <hr>
+                <p>© 2024 <b>Terrific tours and travels</b></p>
+            </div>
+        </div>
+    </footer>
+    <!--     <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script> -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
